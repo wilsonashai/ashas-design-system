@@ -1,0 +1,63 @@
+:root {
+    /**
+    * @tokens Animations
+    * @presenter Animation
+    */
+  
+    --animation-rotate: rotate 1.2s infinite cubic-bezier(0.55, 0, 0.1, 1);
+  
+    /**
+    * @tokens Colors
+    * @presenter Color
+    */
+  
+    --rose-red-base: hsl(338, 95%, 40%);
+    --rose-red-light: hsl(338, 95%, 55%);
+    --rose-red-lightest: hsl(338, 95%, 70%);
+    
+    --amethyst-dark: hsl(266, 45%, 45%);
+    --amethyst-base: hsl(266, 45%, 60%); /* Token Description Example  @presenter Color */
+    --amethyst-light: hsl(266, 45%, 75%);
+    --amethyst-lightest: hsl(266, 45%, 85%);
+
+    --violet-base: hsl(318, 35%, 20%);
+    --violet-light: hsl(318, 35%, 30%);
+    --violet-lightest: hsl(318, 35%, 40%);
+
+    --brown-sugar-dark: hsl(22, 49%, 38%);
+    --brown-sugar-base: hsl(22, 49%, 48%);
+    --brown-sugar-light: hsl(22, 49%, 60%);
+    /*--brown-sugar-lightest: hsl(22, 49%, 75%);*/
+
+    --linen-base: hsl(30, 58%, 93%);
+
+    /**
+    * @tokens Font Families
+    * @presenter FontFamily
+    */
+    --base-font-family: system-ui, sans-serif;
+    --mono-font-family: Monaco, monospace;
+    --web-font-family: 'Open Sans';
+
+    /**
+    * @tokens Font Sizes
+    * @presenter FontSize
+    */
+
+    --font-size-s: .75rem;
+    --font-size-m: 1rem;
+    --font-size-l: 2rem;
+
+    /**
+    * @tokens Font Weights
+    * @presenter FontWeight
+    */
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 600;
+  
+    /**
+    * @tokens Others
+    */
+    --border-normal: 3px dashed red; /* Token Description Example @presenter BorderRadius */
+  }
