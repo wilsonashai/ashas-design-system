@@ -27,17 +27,22 @@
     --brown-sugar-dark: hsl(22, 49%, 38%);
     --brown-sugar-base: hsl(22, 49%, 48%);
     --brown-sugar-light: hsl(22, 49%, 60%);
-    /*--brown-sugar-lightest: hsl(22, 49%, 75%);*/
 
-    --linen-base: hsl(30, 58%, 93%);
+    --linen-light: rgb(255, 249, 244);
+    --linen-base: hsl(29, 60%, 93%);
+
+    --grey-darkest: #484848;
+    --grey-dark: #696969;
+    --grey-base: #808080;
+    --grey-light: #A9A9A9;
 
     /**
     * @tokens Font Families
     * @presenter FontFamily
     */
-    --base-font-family: system-ui, sans-serif;
+    --base-font-family: 'Nunito Sans', 'Segoe UI', Arial, sans-serif;
+    --header-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --mono-font-family: Monaco, monospace;
-    --web-font-family: 'Open Sans';
 
     /**
     * @tokens Font Sizes
@@ -47,6 +52,7 @@
     --font-size-s: .75rem;
     --font-size-m: 1rem;
     --font-size-l: 2rem;
+    --font-size-xl: 3rem;
 
     /**
     * @tokens Font Weights
@@ -54,6 +60,7 @@
     */
 
     --font-weight-regular: 400;
+    --font-weight-semi-bold: 500;
     --font-weight-bold: 600;
   
     /**

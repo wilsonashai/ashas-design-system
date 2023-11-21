@@ -8,7 +8,7 @@ const config: StorybookConfig = {
     "@storybook/preset-create-react-app",
     "@storybook/addon-onboarding",
     "@storybook/addon-interactions",
-    "storybook-design-token"
+    { name: "storybook-design-token", options: { preserveCSSVars: true } }
   ],
   framework: {
     name: "@storybook/react-webpack5",
